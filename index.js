@@ -476,6 +476,10 @@ sources.forEach(source => {
 })
 
 //paths
+app.get('/', (req, res) => {
+    res.json('Welcome to my Gaming News API, go to /all to see the all news articles')
+})
+
 app.get('/all', (req, res) => {
     res.json(allArticles)
 })
