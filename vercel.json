@@ -12,11 +12,11 @@
             "dest": "/"
         },
         {
-            "src": "/all",
+            "src": "./index.js",
             "methods":[
                 "GET"
             ],
-            "dest": "/index.js"
+            "dest": "/all"
         }
     ]
 }
