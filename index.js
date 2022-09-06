@@ -1,8 +1,8 @@
 const PORT = process.env.PORT || 8000;
-const express = require('express');
-const axios = require('axios');
-const cheerio = require('cheerio');
-const { response } = require('express')
+import express from "express";
+import axios from "axios";
+import cheerio from "cheerio";
+import response from "express";
 
 const { get } = axios;
 const app = express();
