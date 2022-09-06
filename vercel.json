@@ -8,12 +8,15 @@
     ],
     "routes": [
         {
-            "src": "/",
+            "src": "./index.js",
             "dest": "/"
         },
         {
             "src": "/all",
-            "dest": "/all"
+            "methods":[
+                "GET"
+            ],
+            "dest": "/index.js"
         }
     ]
 }
